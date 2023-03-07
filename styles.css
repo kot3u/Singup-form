@@ -34,7 +34,7 @@ main {
 }
 
 .logo-name { 
-  flex: 1;
+  flex-shrink: 1;
   color: white;
   font-size: 4rem;
   font-family: Roboto;
