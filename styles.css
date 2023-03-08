@@ -106,6 +106,22 @@ input {
   height: 2rem;
 }
 
+#password-match { 
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.good {
+  color: green;
+}
+
+.bad {
+  color: red;
+}
+
 input:valid{
   border-color: green;
 }
@@ -113,6 +129,8 @@ input:valid{
 input:invalid {
   border-color: red;
 }
+
+
 
 label {
   width: 120px;
