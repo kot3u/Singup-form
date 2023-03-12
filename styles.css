@@ -1,7 +1,8 @@
 * {
   padding: 0;
   margin: 0;
-  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 main {
@@ -33,7 +34,7 @@ main {
   align-items: center;
 }
 
-.logo-name { 
+.logo-name {
   flex-shrink: 1;
   color: white;
   font-size: 4rem;
@@ -55,11 +56,11 @@ main {
   flex-direction: column;
 }
 
-.header{
+.header {
   flex: 1;
   display: flex;
   flex-direction: column;
-  background-color: #F0F8FF;
+  background-color: #f0f8ff;
   font-size: 1.8rem;
   font-family: Roboto;
   font-weight: 500;
@@ -106,7 +107,7 @@ input {
   height: 2rem;
 }
 
-#password-match { 
+#password-match {
   margin-top: 0.5rem;
   font-size: 1rem;
   font-family: Roboto;
@@ -122,7 +123,7 @@ input {
   color: red;
 }
 
-input:valid{
+input:valid {
   border-color: green;
 }
 
@@ -143,14 +144,14 @@ label {
   font-style: italic;
 }
 
-.singup-button{
+.singup-button {
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 30px;
   align-self: flex-start;
-  background-color: #F0F8FF;
+  background-color: #f0f8ff;
   font-family: Roboto;
   font-weight: 500;
   font-size: 1.2rem;
@@ -159,7 +160,7 @@ label {
 .footer {
   padding: 50px;
   flex: 1;
-  background-color: #F0F8FF;
+  background-color: #f0f8ff;
   font-family: Roboto;
   font-weight: 500;
   font-size: 1.2rem;
@@ -188,7 +189,6 @@ label {
   input {
     width: clamp(100px, 60%, 300px);
   }
-
 }
 
 @media only screen and (max-height: 900px) {
